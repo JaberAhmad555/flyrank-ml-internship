@@ -1,0 +1,31 @@
+{
+  "lane": "Refresh / Content Opportunity Scoring",
+  "feature_window": "2026-02",
+  "outcome_window": "2026-03",
+  "sealed_month_not_used": "2026-06",
+  "eligible_rows": 76702,
+  "clients": 34,
+  "positive_rate": 0.18062110505593074,
+  "features": [
+    "impressions_feb",
+    "clicks_feb",
+    "ctr_feb",
+    "avg_position_feb",
+    "active_days_feb"
+  ],
+  "baseline": {
+    "precision_at_50": 0.22,
+    "ndcg_at_50": 0.30276578014118094,
+    "roc_auc": 0.4791942467450447,
+    "pr_auc": 0.26389339843004556
+  },
+  "random_forest": {
+    "precision_at_50": 0.4,
+    "ndcg_at_50": 0.39724473781819825,
+    "roc_auc": 0.5773393473085892,
+    "pr_auc": 0.3367748936484063
+  },
+  "precision_at_50_lift": 1.8181818181818183,
+  "split": "20% client-group holdout",
+  "public_framing": "observed / directional / decision-support"
+}
